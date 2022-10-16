@@ -1,0 +1,48 @@
+git init (Iniciar el git, la base de datos como tal)
+
+git add . (agregar los archivos en la carpeta que se abrio)
+
+git status (Verificar los archivos que esten en el commit (guardados en el github) )
+
+git config --global user.email joeebaena@gmail.com
+
+git config --global user.name Joel
+
+git commit -m "Mensaje de guardado" (Punto de guardado) (Antes se debe agregar los archivos con "git add .")
+
+git log (ver los commits que hay)
+
+git checkout file (el archivo "file" se reinicia al ultimo commit realizado o en el que se esté)
+
+git checkout .
+
+git revert HEAD
+
+git revert --no-commit Head 
+
+git revert --continue
+
+git reset --hard direccuincommit (se eliminan los commits hasta el commit que se requiera)
+
+git diff file (se mira las diferencias del archivo modificado)
+
+.gitignore (dentro de este archivo se escriben los nombres de los archivos que no se requieren en el commit)
+
+git branch login (crear una versión alternativa de TODO el proyecto, "login" es el nombre de esa versión alternativa creada)
+
+git merge login (combina la rama en la que me encuentre con la rama login)
+
+git checkout -b login (crea la rama login y la escojo para trabajar en ella)
+
+git checkout login (cambiamos a la versión alternativa login)
+
+git branch (se ven todas las versiones de los proyectos)
+
+git remote add origin dirección
+
+git push -u origin master (se agrega el repositorio a la dirección Web de GitHub)
+
+git push
+
+git clone direcciónWeb (clona un proyecto de GitHub)
+
